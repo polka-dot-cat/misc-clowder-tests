@@ -10,14 +10,14 @@ sources:
     protocol: https
 
 clowder:
-  - name: JrGoodle/djinni
+  - name: polka-dot-cat/djinni
     upstream: dropbox/djinni
-  - name: JrGoodle/gyp
+  - name: polka-dot-cat/gyp
     branch: fork-branch
     upstream:
       name: external/gyp
       source: chromium
-  - name: JrGoodle/sox
+  - name: polka-dot-cat/sox
     upstream:
       name: p/sox/code
       source:

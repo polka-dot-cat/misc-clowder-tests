@@ -14,18 +14,18 @@ sources:
     protocol: https
 
 clowder:
-  - name: JrGoodle/djinni
+  - name: polka-dot-cat/djinni
     source: github
     groups: [third-party]
     upstream:
       name: dropbox/djinni
       source: github
-  - name: JrGoodle/gyp
+  - name: polka-dot-cat/gyp
     source: github
     branch: fork-branch
     groups: [third-party]
     upstream: external/gyp
-  - name: JrGoodle/sox
+  - name: polka-dot-cat/sox
     source: github
     groups: [third-party]
     upstream:
