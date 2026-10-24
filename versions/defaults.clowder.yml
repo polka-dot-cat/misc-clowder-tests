@@ -24,7 +24,9 @@ clowder:
     source: github
     branch: fork-branch
     groups: [third-party]
-    upstream: external/gyp
+    upstream:
+      name: external/gyp
+      source: chromium
   - name: polka-dot-cat/sox
     source: github
     groups: [third-party]
